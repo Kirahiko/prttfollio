@@ -1,44 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <div class = "contain">
-            <a href="" class = "logo">AliceWeb</a>
+        <div class="contain">
+            <a href="" class="logo">WebKirill</a>
             <nav>
                 <ul>
                     <li><a href="">Home</a></li>
-                    <li><a href="">Resume</a></li>
-                    <li><a href="">Project</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="pages.html">Project</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <div class = "contain">
-            <div class = "text">
-                <p class = "badge"><span>STUDENT•</span><span>DEVELOMPMENT•</span><span>DISIGN</span></p>
-                <p class = "nice">Nice to meet you</p>
+        <div class="contain">
+            <div class="text">
+                <p class="badge"><span>STUDENT•</span><span>DEVELOMPMENT•</span><span>DISIGN</span></p>
+                <p class="nice">Nice to meet you</p>
                 <h1>Let's create<br>website together</h1>
-                <div class = "buttom">
-                    <button type="button" name="popup-button">Resume</button>
-                    <button type="button" name="popup-button">Projects</button>
+                <div class="buttom">
+                    <button onclick="document.location='pages.html'">Pages</button>
+                    <button onclick="document.location='resume.html'">Resume</button>
                 </div>
-                </div>
-
             </div>
-            <div class = "img">
-                <p>zzz</p>
-
-                
+            <div class="img">
+                <img src="avataaars.png" alt="rainer">
             </div>
         </div>
+        <div class = "about">
+            <h2>About</h2>
+            <h4>My name is Kirill and i'm a web developer!</h4>
+            <p>I'm study a school programming </p>
+        </div>
     </main>
-    
+    <footer>
+        <p>Copyring @WebKirill 2024</p>
+        
+    </footer>
 </body>
+
 </html>
